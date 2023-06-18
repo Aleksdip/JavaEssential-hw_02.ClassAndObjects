@@ -1,4 +1,4 @@
-package task_01.car;
+package task_02.car;
 
 public class Car {
     int age;
