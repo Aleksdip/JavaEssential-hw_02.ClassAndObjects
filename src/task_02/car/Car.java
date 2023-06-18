@@ -8,28 +8,21 @@ public class Car {
 
 
     public Car() {
+        this(1);
     }
 
     public Car(int age) {
-        this.age = age;
-        this.speed = 0;
-        this.weight = 0;
-        this.color = "black";
+        this(age, "black" );
+
     }
 
     public Car(int age, String color) {
-        this.age = age;
-        this.color = color;
-        this.speed = 0;
-        this.weight = 0;
+       this(age,199.9, color);
 
     }
 
     public Car(int age, double speed, String color) {
-        this.age = age;
-        this.speed = speed;
-        this.color = color;
-        this.weight = 0;
+        this(age,speed,2000,color);
     }
 
     public Car(int age, double speed, int weight, String color) {
